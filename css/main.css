@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+}
+.head {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+.head h1 {
+  font-size: 42px;
+  margin: 15px 0px;
+  color: white;
+}
+.head .input {
+  width: 70%;
+  height: 50px;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  outline-style: none;
+  border-radius: 3px;
+}
+.head #btn1 {
+  height: 50px;
+  width: 30%;
+  padding: 0px 20px;
+  margin-left: -7px;
+  border: 1px solid transparent;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  transition: all 0.4s;
+  border-radius: 0px 5px 5px 0px;
+}
+.head #btn1:hover {
+  background-color: #0c3a6c;
+}
+.section {
+  width: 100%;
+  background-color: #fbf8f8;
+  height: auto;
+  border-radius: 5px;
+}
+.item {
+  background-color: #f1eded;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+.item2 {
+  background-color: #ddd;
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+.item:hover,
+.item2:hover {
+  cursor: pointer;
+  background-color: #afafaf;
+  transition: 0.5s;
+}
+.name {
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+}
+
+.cheack {
+  text-decoration: line-through;
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+  background-color: #afafaf;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .head #btn1 {
+    height: 50px;
+    font-size: 18px;
+  }
+}
